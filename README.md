@@ -53,13 +53,11 @@ Ejecute en su terminal: ```python main.py```
 
 Acto siguiente su computadora va a tomar control del mouse, teclado, navegador y pantalla. **Va a parecer que su computadora cobrará vida propia.**
 
-
-
 # Preguntas y respuestas
 
 **¿Es lento este proceso?** 
 
-Según el vídeo parece lento pero, es a próposito para apreciar bien los detalles de cada etapa del código.
+No. Sé puede incluso obtener un mayor rendimiento utilizando acortadores de url como **bit.ly** para que ingrese más rápido el link. 
 
 **¿Cuándo utilizar este programa?** 
 
