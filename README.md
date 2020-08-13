@@ -1,5 +1,5 @@
 # revivir-fotos
-Dar color a imágenes en blanco y negro de épocas de antaño con ayuda de Deep Learning. 
+Dar color a imágenes en blanco y negro de épocas de antaño con ayuda de Deep Learning con la automatización de pyautogui. 
 
 # Introducción
 
@@ -9,7 +9,7 @@ También imagina fotos de museos muy antigüas, ¿no te gustaría ver el context
 
 Ver fotografías de la primera guerra mundial a color y ver cómo era la situación realmente. 
 
-**Éstas y muchas cosas más me motivaron a investigar sobre el tema.**
+**Estas y muchas cosas más me motivaron a investigar sobre el tema.**
 
 # Contexto
 
@@ -57,7 +57,7 @@ Acto siguiente su computadora va a tomar control del mouse, teclado, navegador y
 
 **¿Es lento este proceso?** 
 
-No. Sé puede incluso obtener un mayor rendimiento utilizando acortadores de url como **bit.ly** para que ingrese más rápido el link. 
+No. Se puede incluso obtener un mayor rendimiento utilizando acortadores de url como **bit.ly** para que ingrese más rápido el link. 
 
 **¿Cuándo utilizar este programa?** 
 
