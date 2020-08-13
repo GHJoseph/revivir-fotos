@@ -3,6 +3,7 @@ import pyautogui
 import time
 import funciones
 import polling
+import os
 
 # Abrir una nueva ventana en el navegador
 def urlNavegador():
@@ -10,8 +11,7 @@ def urlNavegador():
     webbrowser.open("https://algorithmia.com/use-cases")
 
 # Manejador de archivos
-#archivo = open("links.txt", "r")
-archivo = open("prueba.txt", "r")
+archivo = open("links.txt", "r")
 lineas = archivo.readlines()
 numeroLineas = len(lineas)
 archivo.close()
@@ -24,28 +24,34 @@ for i in range(numeroLineas):
     # Primer click
     polling.startPolling("./Recursos/photo3.png")           #Polling inicial
     pyautogui.moveTo(594, 306, 2, pyautogui.easeOutQuad)    #Da apariencia que arranca rapido el mouse y luego lento
-    pyautogui.scroll(-16)
-    pyautogui.click()
-    #polling.startPolling("./Recursos/photo4.png")
+    pyautogui.scroll(-10)
+    
+    # Encontrar primer casilla para hacer click
+    polling.startPolling("./Recursos/photo4.png")
+    funciones.encontrarBoton("./Recursos/photo8.png")
     
     # Segundo click
-    #funciones.asignarClick(214,495)
-    #polling.startPolling("./Recursos/photo5.png")
+    polling.startPolling("./Recursos/photo5.png")
+    funciones.localizarImagen("./Recursos/photo9.png")
     
-    # Escribir en el rectangulo blanco de algorithmia
-    #pyautogui.typewrite(lineas[i])
-    #pyautogui.press('enter')
-    #polling.startPolling("./Recursos/photo6.png")
+    # Cargar URL en el rectangulo blanco de algorithmia
+    pyautogui.typewrite("1")
+    pyautogui.press("backspace")
+    funciones.adaptarUrl(lineas[i])
+    polling.startPolling("./Recursos/photo6.png")
     
     # Ahora nos movemos un poco hacia abajo, para encontrar el link y descargar la imagen
-    #pyautogui.scroll(200) #FALTA DEFINIR BIEN ESE VALOR
-    # Encontrar el link de descarga
-    #funciones.localizarImagen("./Recursos/photo0.png")
-    #polling.startPolling("./Recursos/photo7.png")
+    funciones.localizarImagen("./Recursos/photo0.png")
+    polling.startPolling("./Recursos/photo7.png")
     
     # Encontrar la imagen para guardar
     #funciones.localizarImagen("./Recursos/photo1.png")
     # Hay que cersiorarse que este la opcion de guardar
-    #funciones.localizarImagen("./Recursos/photo2.png")
+    funciones.localizarImagen("./Recursos/photo2.png")
     
+    # Guardar imagen
     # Esto por defecto guardara las imagenes en descargas
+    funciones.localizarImagen("./Recursos/photo11.png")
+    
+    # Cerrar ventana actual
+    funciones.cerrarVentana()
