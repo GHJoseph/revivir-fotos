@@ -27,7 +27,9 @@ Por eso, cree un script en python que analiza un archivo de texto (que obtuve ha
 
 # Fuente de las imágenes
 
-Todas las imágenes fueron obtenidas del respositorio LILKAYA [Ver repositorio](https://lilkaya.unah.edu.hn/) dela Universidad Nacional Autónoma de Honduras.
+Todas las imágenes fueron obtenidas del respositorio LILKAYA [Ver repositorio](https://lilkaya.unah.edu.hn/) de la Universidad Nacional Autónoma de Honduras. 
+
+Ese repositorio contiene muchas imágenes y documentos obtenidos de Fototecas, museos y más de Honduras.
 
 # Programas
 
@@ -50,6 +52,8 @@ Es el core del proyecto, acá se analiza todos los links cargados, y se obtiene 
 Ejecute en su terminal: ```python main.py```
 
 Acto siguiente su computadora va a tomar control del mouse, teclado, navegador y pantalla. **Va a parecer que su computadora cobrará vida propia.**
+
+
 
 # Preguntas y respuestas
 
