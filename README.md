@@ -80,3 +80,7 @@ Como use pyautogui definí sus valores en función de mi teclado (uso QWERTY esp
 * Responder a comentarios de venta en Facebook.
 
 # ¡Ojalá hayas disfrutado del código!
+
+### Sí quieres contribuir con una foto antigüa tuya, guarda las imágenes a color y en blanco y negro en la carpeta _Ejemplos_ y hazme un pull request para cargarla al repositorio. Y sí puedes una breve descripción para dar contexto a la imagen (¿en qué año se tomó la imagen?¿Qué lugar es ese?).
+
+Sí nunca has hechoun pull request está puede ser una oportunidad para hacerlo. Te adjunto un breve tutorial de un buen repositorio para principiantes con los pull request. [Ver tutorial](https://github.com/firstcontributions/first-contributions/blob/master/translations/README.es.md)
