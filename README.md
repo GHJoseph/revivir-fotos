@@ -17,7 +17,7 @@ Hay una librería que realiza ésto automáticamente en python llamada ```algori
 
 Por eso, cree un script en python que analiza un archivo de texto (que obtuve haciendo web scrapping a un repositorio llamado _LILKAYA_), posteriormente guarda esos links de las imágenes que quiero en ese archivo. Luego mediante la automatización de procesos con pyautogui busca en el navegador un demo de algorithmia, carga los links, procesa y guarda la imágenes.
 
-# Resultados
+# Resultados post-curado
 
 ![compara1](https://github.com/cabustillo13/revivir-fotos/blob/master/Ejemplos/comparar1.png)
 
@@ -57,7 +57,7 @@ Acto siguiente su computadora va a tomar control del mouse, teclado, navegador y
 
 **¿Es lento este proceso?** 
 
-No. Se puede incluso obtener un mayor rendimiento utilizando acortadores de url como **bit.ly** para que ingrese más rápido el link. 
+No. Al ejecutar el programa tiene varios delays de 1 segundo para poder apreciar cada etapa, una vez que se apreció y entendió cómo funciona el programa se les puede quitar ese delay para que tenga su funcionamiento óptimo. También se puede alcanzar un mayor rendimiento utilizando acortadores de url como **bit.ly** para que ingrese más rápido el link. 
 
 **¿Cuándo utilizar este programa?** 
 
